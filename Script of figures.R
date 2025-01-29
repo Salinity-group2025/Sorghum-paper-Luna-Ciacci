@@ -33,9 +33,6 @@ library(ggsignif)
 library(RColorBrewer)
 library(viridis)
 library(ggsci)
-install.packages("fastmap")
-devtools::install_version("fastmap", version = "1.2.0", repos = "http://cran.us.r-project.org")
-install.packages("backports")
 
 #Plotting Figures with statistics
 my_comparisons <- list( c("Non-fert", "AS"), c("Non-fert", "U"), c("U", "AS") )
